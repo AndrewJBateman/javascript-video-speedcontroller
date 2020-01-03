@@ -2,6 +2,8 @@ const speed = document.querySelector('.speed');
 const bar = speed.querySelector('.speed-bar');
 const video = document.querySelector('.flex');
 
+// measure mouse vertical position, convert to % betwen 0.4 and 4 playback speeds. 
+// speed bar height & video playbackrate depend on this value, display a speed to 2dp.
 function handleMove(e) {
   const y = e.pageY - this.offsetTop;
   const percent = y / this.offsetHeight;
@@ -15,4 +17,3 @@ function handleMove(e) {
 };
 
 speed.addEventListener('mousemove', handleMove);
-
