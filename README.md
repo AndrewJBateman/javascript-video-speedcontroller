@@ -1,11 +1,10 @@
-# Javascript Video Speed Controller
+# :zap: Javascript Video Speed Controller
 
 Wes Bos Youtube Tutorial: [Build a Experimental Video Speed Controller UI - #JavaScript30 28/30](https://www.youtube.com/watch?v=8gYN_EDMg_M&index=28&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH).
 
-
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -16,23 +15,23 @@ Wes Bos Youtube Tutorial: [Build a Experimental Video Speed Controller UI - #Jav
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * Tutorial Code using javascript to adjust the speed of a video via rhs bar vertical position on scale.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/video.png).
 
-## Technologies
+## :signal_strength: Technologies
 
-* Ran in Google Chrome browser with: [Javascript engine V8 7.9.317.32 for Windows (x64)](https://v8.dev/).
+* Ran in Google Chrome browser with: [Javascript engine V8 for Windows (x64)](https://v8.dev/).
 
-## Setup
+## :floppy_disk: Setup
 
 * Open index.html in browser. If any code is changed the browser needs to be refreshed.
 
-## Code Examples
+## :computer: Code Examples
 
 * Function to convert mouse pos in speed bar to video playback speed and bar video speed display.
 
@@ -52,20 +51,19 @@ function handleMove(e) {
 };
 ```
 
-## Features
+## :cool: Features
 
 *  Unsplash background changes daily. Displays video playback to 2 dp.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working.
-
 * To-Do: Nothing.
 
-## Inspiration
+## :clap: Inspiration
 
 * Wes Bos Youtube Tutorial: [Build a Experimental Video Speed Controller UI - #JavaScript30 28/30](https://www.youtube.com/watch?v=8gYN_EDMg_M&index=28&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH).
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
